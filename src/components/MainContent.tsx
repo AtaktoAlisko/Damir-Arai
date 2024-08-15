@@ -56,11 +56,11 @@ export default function MainContent() {
         шақырамыз!
       </div>
       <div className="relative mx-10 mb-16 flex h-[60vh] w-[80%] flex-col items-center rounded-xl bg-[url('/girl.webp')] bg-cover bg-center bg-no-repeat">
-        <div className="pt-8 font-xxx text-3xl  text-[#846718]">
+        <div className="pt-8 font-xxx text-3xl text-[#846718]">
           Той Салтанаты:
         </div>
         <div className="flex flex-col items-center pt-8 text-center uppercase text-[#846718]">
-          <div data-aos="flip-up" className="font-xxx text-2xl ">
+          <div data-aos="flip-up" className="font-xxx text-2xl">
             Қыркүйек
           </div>
           <div
@@ -73,9 +73,7 @@ export default function MainContent() {
             2024 жыл
           </div>
           <div className="absolute bottom-8 flex flex-col text-[#846718]">
-            <div className="font-xxx text-3xl  capitalize">
-              Басталуы:
-            </div>
+            <div className="font-xxx text-3xl capitalize">Басталуы:</div>
             <div
               data-aos="flip-up"
               data-os-easing="ease-out-cubic"
@@ -116,16 +114,9 @@ export default function MainContent() {
           17:50 <br /> тойдың <br /> басталуы
         </div>
         <div data-aos="zoom-out" data-aos-delay="200" className="mb-2 text-xl">
-          18:00 <br /> құдаларды <br /> күтіп алу
+          18:00 <br />
+          беташар <br />  рәсімі
         </div>
-        <Image
-          data-aos="zoom-in"
-          src="/bg-1.webp"
-          alt="background"
-          width={100}
-          height={10}
-          className="relative mx-auto mb-2"
-        />
         <Image
           data-aos="zoom-in"
           src="/bg-4.webp"
@@ -134,8 +125,16 @@ export default function MainContent() {
           height={10}
           className="relative mx-auto mb-2"
         />
+        <Image
+          data-aos="zoom-in"
+          src="/bg-1.webp"
+          alt="background"
+          width={100}
+          height={10}
+          className="relative mx-auto mb-2"
+        />
         <div data-aos="zoom-out" data-aos-delay="200" className="mb-2 text-xl">
-          18:10 <br /> беташар <br /> рәсімі
+          19:00 <br /> құдаларды <br /> күтіп алу
         </div>
         <div className="absolute left-[50%] h-full border-[0.5px] border-[#98761A]"></div>
 
